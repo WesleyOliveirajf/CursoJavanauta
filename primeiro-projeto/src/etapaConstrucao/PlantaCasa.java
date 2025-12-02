@@ -1,6 +1,6 @@
 package etapaConstrucao;
 
-public class PlantaCasa {
+public class PlantaCasa implements Construcao {
     //Atributos
     public int metragem;
     public  int numeroQuartos;
@@ -15,6 +15,17 @@ public class PlantaCasa {
         System.out.println("Numero de banheiros " + numeroBanheiros);
         System.out.println("Material " + material);
         System.out.println(" A metragem da Casa é: "+ somaMetragem());
+    }
+
+    // Anotações
+    @Override
+    public void pintar(String cor) {
+        System.out.println("Pintando a Casa da com a cor: ");
+    }
+
+    @Override
+    public int calcularCustoConstrucao(int custoPorMetro) {
+        return metragem + custoPorMetro;
     }
 
     public void pintar(){
