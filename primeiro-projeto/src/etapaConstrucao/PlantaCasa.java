@@ -21,8 +21,23 @@ public class PlantaCasa {
         System.out.println("A casa foi pintada de:  " + cor);
     }
 
+    public void mudarCorParede(String novacor){
+        cor = novacor;
+        pintar();
+    }
+
     public int somaMetragem(){
         return metragem * numeroBanheiros + numeroQuartos;
+
+    }
+
+    public void alterarCaracteristicas(int metros, int quartos, int banheiros, String mat){
+        metragem = metros;
+        numeroQuartos = quartos;
+        numeroQuartos = banheiros;
+        material = mat;
+
+        construir();
 
     }
 
@@ -41,6 +56,21 @@ public class PlantaCasa {
 
         casa.pintar();
 
+        casa.mudarCorParede("Branco");
+
+        casa.alterarCaracteristicas(100, 2, 2 , "Madeiras");
+
         int resultado = casa.somaMetragem();
+
+        PlantaCasa casaVizinho = new PlantaCasa();
+        casaVizinho.metragem = 200;
+        casaVizinho.material = "Alvenaria";
+        casaVizinho.numeroBanheiros = 1;
+        casaVizinho.numeroQuartos = 1;
+        casaVizinho.cor = "Azul";
+
+        System.out.println("==========================");
+        casaVizinho.construir();
+        casaVizinho.pintar();
     }
 }
