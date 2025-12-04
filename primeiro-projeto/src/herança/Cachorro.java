@@ -1,5 +1,7 @@
-public class Cachorro {
+package herança;
+
+public class Cachorro extends Animal {
     public void latir(){
-        System.out.println("Cacchorro esta latindo");
+        System.out.println("Cachorro esta latindo");
     }
 }

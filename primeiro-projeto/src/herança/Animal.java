@@ -1,7 +1,9 @@
+package herança;
+
 public class Animal {
 
   public void comer(String alimneto){
-        System.out.println("O animal esta comendo" + alimneto);
+        System.out.println("O animal esta comendo: " + alimneto);
     }
 
     public void dormir(){
@@ -9,7 +11,7 @@ public class Animal {
     }
 
     public void beberAgua(){
-        System.out.println("Animal esta bebendo agua ");
+        System.out.println("herança.Animal esta bebendo agua ");
     }
 
 }
