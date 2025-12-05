@@ -1,3 +1,5 @@
+package Logica;
+
 public class concersaodeTipos {
     public static void main(String[] args) {
         int numero = 10;

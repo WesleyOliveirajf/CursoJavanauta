@@ -1,3 +1,5 @@
+package Logica;
+
 public class Util {
 
     public static int somar (int a, int b){

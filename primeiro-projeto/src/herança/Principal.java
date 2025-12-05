@@ -5,15 +5,16 @@ public class Principal {
 
         Cachorro caramelo = new Cachorro();
         caramelo.latir();
-        caramelo.comer("Ração");
+        caramelo.comer("pao");
         caramelo.beberAgua();
-        caramelo.latir();
+        caramelo.dormir();
 
         System.out.println("==============================================================================");
 
         Galinha cocorico = new Galinha();
         cocorico.cisca();
         cocorico.comer("Milho");
+
 
 
     }

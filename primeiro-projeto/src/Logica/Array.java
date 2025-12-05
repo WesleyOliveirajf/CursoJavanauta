@@ -1,6 +1,8 @@
+package Logica;
+
 public class Array {
     public static void main(String[] args) {
-        // Declaração de Array
+        // Declaração de Logica.Array
 //        int [] numeros = {10, 20, 30};
 //        String [] frutas;
 

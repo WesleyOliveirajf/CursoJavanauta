@@ -14,13 +14,13 @@ public class PlantaCasa implements Construcao {
         System.out.println("Numero de quartos " + numeroQuartos);
         System.out.println("Numero de banheiros " + numeroBanheiros);
         System.out.println("Material " + material);
-        System.out.println(" A metragem da Casa é: "+ somaMetragem());
+        System.out.println(" A metragem da Logica.Casa é: "+ somaMetragem());
     }
 
     // Anotações
     @Override
     public void pintar(String cor) {
-        System.out.println("Pintando a Casa da com a cor: ");
+        System.out.println("Pintando a Logica.Casa da com a cor: ");
     }
 
     @Override

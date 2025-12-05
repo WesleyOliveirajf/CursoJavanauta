@@ -1,3 +1,5 @@
+package Logica;
+
 import etapaConstrucao.PlantaCasa;
 
 public class Casa {

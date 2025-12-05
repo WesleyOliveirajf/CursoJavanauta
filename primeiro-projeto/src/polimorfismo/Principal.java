@@ -15,9 +15,12 @@ public class Principal {
         double totalDouble = Calculadora.somar(sabonete, arroz);
         Integer totalInteger = Calculadora.somar(batata, cenoura, melancia);
 
-
+        Carro fusca = new Carro();
+        fusca.mover();
 
 
 
     }
+
+
 }
